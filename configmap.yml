@@ -1,0 +1,10 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: mysql-configmap
+  namespace: mysql
+  labels:
+    app: mysql
+data:
+  MYSQL_DATABASE: cricbuzz
+  MYSQL_USER: john 
